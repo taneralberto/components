@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    min-width: 100%;
+    width: 100%;
+}
+
+.testimonies {
+    padding: 4rem;
+}
+
+.testimony {
+    display: flex;
+    gap: 2rem;
+}
+
+.info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .info .name {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .info .enterprise {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #5b5b5b
+    }
+    .info .photo {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    .info .date {
+        font-size: 1rem;
+        color: #5b5b5b;
+        margin-top: 0.5rem;
+    }
+
+.content {
+    width: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+    .content::after {
+        content: "\"";
+    }
+    .content::before {
+        content: "\"";
+    }
